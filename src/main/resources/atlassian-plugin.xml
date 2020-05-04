@@ -6,17 +6,4 @@
         <param name="plugin-icon">images/pluginIcon.png</param>
         <param name="plugin-logo">images/pluginLogo.png</param>
     </plugin-info>
-
-    <repository-hook key="eagerpr-hook" name="Eager PullRequest Internal-Refs Updates"
-                     class="com.cyanoth.eagerpr.PostReceiveHook">
-        <icon>images/pluginIcon.png</icon>
-        <description key="com.cyanoth.eagerpr.postreceivehook">
-            Update internal repository references immediately on a pull-request change
-        </description>
-        <scopes>
-            <scope>project</scope>
-            <scope>repository</scope>
-        </scopes>
-    </repository-hook>
-
 </atlassian-plugin>

@@ -4,7 +4,7 @@
 
     <groupId>com.cyanoth</groupId>
     <artifactId>eagerpr</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.5</version>
     <packaging>atlassian-plugin</packaging>
 
     <name>Eager PullRequest Internal-Refs Update</name>
@@ -21,7 +21,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <amps.version>8.0.2</amps.version>
-        <bitbucket.version>7.1.1</bitbucket.version>
+        <bitbucket.version>7.1.2</bitbucket.version>
         <bitbucket.data.version>${bitbucket.version}</bitbucket.data.version>
 
         <!-- This property ensures consistency between the key in atlassian-plugin.xml and the OSGi bundle's key. -->
