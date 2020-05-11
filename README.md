@@ -12,4 +12,13 @@ to get the effectiveDiff of the pull-request. As a result of this, the internal 
 
 Tested on Bitbucket 6.8.2 && 7.1.2
 
-`atlas-package` to package this plugin, then install it on Bitbucket Server through the UPM.
+## Installing
+
+Download the latest jar file from the releases tab. 
+On the Bitbucket Instance: Global Admin -> Manage Apps -> Upload App and Select the downloaded jar file.
+
+To package the jar file yourself, 
+Clone this repository, Setup the [atlassian-sdk](https://developer.atlassian.com/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project/) and run:
+`atlas-package` to package this plugin. 
+
+On the Bitbucket Instance: Global Admin -> Manage Apps -> Upload App and Select the packaged jar file.
