@@ -17,7 +17,7 @@ Tested on Bitbucket 6.8.2 && 7.1.2
 Download the latest jar file from the releases tab. 
 On the Bitbucket Instance: Global Admin -> Manage Apps -> Upload App and Select the downloaded jar file.
 
-To package the jar file yourself, 
+Alternatively, to package the plugin yourself: 
 Clone this repository, Setup the [atlassian-sdk](https://developer.atlassian.com/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project/) and run:
 `atlas-package` to package this plugin. 
 
